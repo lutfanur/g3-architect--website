@@ -17,11 +17,17 @@
 .text-gray {
     color: var(--Dark-03, #727272);
 }
+.section-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: left;
+}
 
 /* header styles */
 header {
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 50px 700px;
 }
 
 nav {
@@ -29,14 +35,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
-.nav-title {
-    color: #131313;
-    font-size: 2.8rem;
-    font-weight: 700;
-    text-align: left;
-}
-
 nav>ul {
     display: flex;
 }
