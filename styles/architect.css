@@ -134,6 +134,11 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
+.features-img img{
+    height: 90%;
+    margin-left: 90px;
+    padding-bottom: 10px;
+}
 
 .ten-years-badge {
     border-radius: 8px;
@@ -142,14 +147,17 @@ main {
     color: #FFF;
     width: 342px;
     padding: 40px;
+    position: relative;
+    bottom: 100px;
 
     text-align: center;
 }
 .ten-years-badge h2{
     font-size: 4rem;
+    margin: 0;
 }
 .ten-years-badge p{
-    padding-bottom: 20px;
+    font-size: 1.5rem;
 }
 
 /* facts section */
@@ -227,6 +235,10 @@ main {
 
     .facts-card-container {
         gap: 20px;
+    }
+    .ten-years-badge{
+        position: static;
+        width: 100%;
     }
 
 }
